@@ -148,3 +148,13 @@ table {
 .title {
   text-wrap: balance;
 }
+
+.gallery-grid{
+  display: flex;
+  flex-wrap: wrap;
+  position:absolute;
+  left: 0;
+  width: 100vw;
+  padding: 15px;
+  cursor:crosshair;
+}
