@@ -3,7 +3,9 @@
 This is my portfolio on 2024. Here I will upload the works I've done.
 If you are a company or a person and want to work with me get on touch.
 
-You can see the portfolio visiting this URL from vercel.
+You can see the portfolio visiting this URL from vercel:
+
+https://portfolio2024-one-rust.vercel.app/
 
 ### Portfolio Blog Starter
 
