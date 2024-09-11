@@ -152,6 +152,7 @@ table {
 .gallery-grid{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   position:absolute;
   left: 0;
   width: 100vw  ;
@@ -161,7 +162,7 @@ table {
 
 .web-example {
   width: 100%;
-  height: 600px;
+  height: 720px;
   border: #354150 solid 3px;
   cursor: crosshair;
 

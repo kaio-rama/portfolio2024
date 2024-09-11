@@ -31,6 +31,24 @@ export default function Page() {
       </p>
       <a href="https://kaio-rama.github.io/whereToBeer/" target="blank" className="text-indigo-300">WhereToBeer preview on GitHub pages.</a>
 
+      
+      <iframe src="https://kaio-rama.github.io/gif-app/" className="web-example mt-8"></iframe>
+      <label className="font-semibold mb-8 tracking-tighter">  Gif searcher - using React & Giffy API. </label>
+      <p className="mb-0">
+        <i>Simple web application made with React that accesses the Giffy API to search for gifs based on an input given by the user.
+        This is the app I started with in React and an example of calls to an external API </i>  
+      </p>
+      <a href="https://kaio-rama.github.io/gif-app/" target="blank" className="text-indigo-300">Gif Searcher on GitHub pages.</a>
+      
+      <h3 className="mt-20 font-bold"> Art & Design gallery:</h3>
+      <p> As I said, I'm not only a front-end developer and designer. I'm really into art.
+        Most of my "art works" are related to audiovisual. I've directed some shortfilms and videoclips and used to work on cinema industry
+        as a prop manager in the art department in Netflix, Star+ (a.k.a Disney) & HBO series, movies and publicities.
+        At this time I find more interest on working as developer, and let the art to my personal projects.
+        Here there are just some of all the works I'vde done. You can find others on my Behance or my Linkedin, 
+        but they are focus on these "artist works" more than to software developing.       
+      </p>
+
       </div>
 
       <div className="iframe-container lang" hidden>
@@ -54,7 +72,24 @@ export default function Page() {
       </p>
       <a href="https://kaio-rama.github.io/whereToBeer/" target="blank" className="text-indigo-300">Ver WhereToBeer en GitHub pages.</a>
 
+      <iframe src="https://kaio-rama.github.io/gif-app/" className="web-example mt-8"></iframe>
+      <label className="font-semibold mb-8 tracking-tighter">  Gif searcher - aplicación web con React & la API de Giffy.</label>
+      <p className="mb-0">
+        <i>Simple aplicación web hecha en React y que accede a la API de Giffy para buscar gifs en base a un input que le pase el usuario.
+          Es la app con la que empecé en React y un ejemplo de llamadas a una API externa. </i>  
+      </p>
+      <a href="https://kaio-rama.github.io/gif-app/" target="blank" className="text-indigo-300">Ver Gif Searcher en GitHub pages.</a>
+
+      <h3 className="mt-20 font-bold"> Art & Design gallery:</h3>
+      <p> Como dije, no solo soy un desarrollador y diseñador front-end. Me gusta mucho el arte.
+        La mayoría de mis "obras de arte" están relacionadas con el audiovisual. He dirigido algunos cortometrajes y videoclips, y solía trabajar en la industria cinematográfica
+        como encargado de utilería en el departamento de arte en series, películas y publicidades de Netflix, Star+ (Disney) y HBO.
+        En este momento encuentro más interés en trabajar como desarrollador y dejo el arte para mis proyectos personales.
+        Aquí hay solo algunos de todos los trabajos que he realizado. Puedes encontrar otros en mi Behance o mi Linkedin,
+        pero se centran en estos "trabajos de artista" más que en el desarrollo de software.   
+      </p>
       </div>
+
       <GalleryGrid/>
     </section>
   )
