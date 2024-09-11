@@ -8,9 +8,9 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
-  // '/gallery': {
-  //   name: 'gallery',
-  // },
+  '/gallery': {
+    name: 'gallery',
+  },
   '': {
     name: 'ES/EN'
   }
@@ -19,6 +19,7 @@ const navItems = {
 function switchLang(){
   let lang = document.getElementsByClassName("lang") as HTMLCollectionOf<HTMLElement>;
   if(lang.length > 1){
+    console.log(lang)
       if(lang[1].hidden){
         lang[0].hidden = true;
         lang[1].hidden = false;

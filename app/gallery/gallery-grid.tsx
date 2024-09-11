@@ -8,7 +8,7 @@ export function GalleryGrid(){
             {IMAGES.map((img, index) => (
                 <Image
                     key={index}
-                    width={360}
+                    width={400}
                     height={240}
                     src={img}
                     alt="Illustration of some Design & developing work."

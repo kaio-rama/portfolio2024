@@ -154,7 +154,15 @@ table {
   flex-wrap: wrap;
   position:absolute;
   left: 0;
-  width: 100vw;
-  padding: 15px;
+  width: 100vw  ;
   cursor:crosshair;
+  padding: 18px;
+}
+
+.web-example {
+  width: 100%;
+  height: 600px;
+  border: #354150 solid 3px;
+  cursor: crosshair;
+
 }
