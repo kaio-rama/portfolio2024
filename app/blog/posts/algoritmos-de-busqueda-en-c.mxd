@@ -9,7 +9,10 @@ Esto nos puede dejar tanto "O" (big O notacion), la cúal es omnipresente en pro
 Como también nos puede dejar con "Ω"(omega), la cúal representa el caso opuesto de O, es decir, si O la usamos para cuantificar cuanto es la mayor cantidad de pasos 
 para completar un algoritmo. Omega representa la minima cantidad de pasos que nos puede llevar completar el mismo algoritmo. 
 
-#### Tiempos de ejecución, de algoritmos, más comunes:
+Tiempos de ejecución, de algoritmos, más comunes:
+
+### Big "O" Notation - Cota superior asintótica
+
 
 O(n**2) = cuadratic time.
 
@@ -20,6 +23,8 @@ O(n) = linear time.
 O(log n) = logaritmic time.
 
 O(1) = constant time (constant number of steps).
+
+### Big Omega Notation - Límite inferior del tiempo de ejecución 
 
 Ω(n**2) 
 
@@ -34,6 +39,8 @@ O(1) = constant time (constant number of steps).
 Sin embargo pueden existir casos donde la mayor cantidad de pasos posibles para completar un algoritmo ("O") y la menor ("Ω") sean la misma,
 por ejemplo en un algoritmo donde queramos separ la cantidad de personas en un evento. En este caso siempre nos llevará la misma cantidad de pasos contabilizarlos a todos que sería n cantidad de veces.
 Para estos casos usamos el simbolo Θ (Theta).
+
+### Theta notation - Asymptotic Notation
 
 Θ(n**2) 
 
@@ -61,4 +68,31 @@ O(n) --> Linear Search ...
 O(log n) --> Binary Search ...
 
 Ω(1) --> linear search / Binary Search
+
+Θ(n) --> linear count 
+
+
+### Algoritmos de ordenamiento: 
+
+Selection Sort : Selecciona el elemento más pequeño ( o el más grande ) una y otra vez.
+ - Pros, usa poca memoria.
+ - Cons, tiene que repetir el proceso varias veces. 
+ (n-1 + n-2 + n-3 + ... + 1) 
+    || 
+ n(n-1)/2 
+    =
+ (n**2)/2 - n/2
+    =
+ O(n**2) && Ω(n**2) == Θ(n**2) 
+
+ - Pseudocódigo: 
+
+```` JavaScript
+for i from 0 to n-1
+    find smallest number between numbers[i] and numbers[n-1]
+    swap smalles number with numbers[i]
+
+````
+
+
 
