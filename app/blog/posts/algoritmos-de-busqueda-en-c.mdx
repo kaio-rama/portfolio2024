@@ -74,7 +74,7 @@ O(log n) --> Binary Search ...
 
 ### Algoritmos de ordenamiento: 
 
-Selection Sort : Selecciona el elemento más pequeño ( o el más grande ) una y otra vez.
+#### Selection Sort : Selecciona el elemento más pequeño ( o el más grande ) una y otra vez.
  - Pros, usa poca memoria.
  - Cons, tiene que repetir el proceso varias veces. 
  (n-1 + n-2 + n-3 + ... + 1) 
@@ -93,6 +93,47 @@ for i from 0 to n-1
     swap smalles number with numbers[i]
 
 ````
+#### Buble Sort: Compara los adyacentes una y otra vez ordenandolos de mayor a menor (o menor a mayor).
+- Pros, puede abortarse si no hay nada que ordenar
+- Cons, tiene que repetir el proceso varias veces.
+ (n-1) x (n-1)
+ n**2 - 1n - 1n+1
+ n**2 - 2n + 1
+   =
+ O(n**2) && Ω(n)
+
+ - Pseudocódigo:
+
+ ```` JavaScript
+ Repeat n-1 times:
+   for i from 0 to n-2
+      if numbers[i] and numbers[i+1] out of order
+         swap them
+      if no swaps
+         quit   
+
+````
+
+#### Recursive algoritmic: El algoritmo utiliza un algoritmo dentro del mismo.
+Por ejemplo binary search, se declara a si misma y vuelve a utilizar el su algoritmo.
+
+#### Merge Sort: 
+- Pros, utiliza un algoritmo recursivo por lo que es notablemente más rapido.
+- Cons, utiliza más memoria (más de un array)
+
+n log2 n || n log n
+   =
+ O(n log n) && Ω(n log n) == Θ(log n)
 
 
+ - Pseudocódigo:
 
+ ```` JavaScript
+ if only one number
+   return
+ else
+   sort left half of numbers
+   sort right half of numbers
+   merge sorted halves 
+   
+````
