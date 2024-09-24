@@ -11,8 +11,8 @@ export default function Page() {
     <section>
       <h1 className="font-semibold text-2xl mb-4 tracking-tighter">my gallery </h1>
       <div className="iframe-container lang">
-      <p className="pb-4"> Here there are some personal projects i made while learning or just for fun, 
-        there are no professional and them are all open-source for those who want to see the code and use it.</p>
+      <p className="pb-4"> Here there are some personal projects I've made while learning or just for fun, 
+        them are not professional and them are all open-source for those who want to see the code and use it.</p> 
         <iframe src="https://kaio-rama.github.io/visualsloosers/" className="web-example"></iframe>
         <label className="font-semibold mb-8 tracking-tighter"> Visual Loosers - Visual editor running on JavaScript & GLSL</label>
       <p className="mb-0">
@@ -22,7 +22,19 @@ export default function Page() {
       </p>
       <a href="https://kaio-rama.github.io/visualsloosers/" target="blank" className="text-indigo-300">Visual Looser preview.</a>
 
-      
+      <iframe src="https://dbd-mastodon.vercel.app/home" className="web-example mt-8"></iframe>
+      <label className="font-semibold mb-8 tracking-tighter"> DBD Mastodon - Project of interface for Mastodon social network using Astro.</label>
+      <p className="mb-0">
+        <i>DBD Mastodon is a web application that allows you to access your Mastodon social network and interact with it.
+           It's an open source project of interface for Mastodon social network, but it's on a really early stage of development.
+           It's started as an experiment to learn how to develop a web application rendering only HTML with Astro , and it's still in development.
+           Anyway in the proccess I figure it out 1 - how to use the Mastodon API and how to interact with it and 2- it's probably best to use react, next.js or
+           some other framework with SSR (Server Side Rendering) to render the HTML and interact with the API.
+           </i>
+      </p>
+      <a href="https://dbd-mastodon.vercel.app/home" target="blank" className="text-indigo-300">DBD Mastodon preview on Vercel .</a>
+
+
       <iframe src="https://kaio-rama.github.io/whereToBeer/" className="web-example mt-8"></iframe>
       <label className="font-semibold mb-8 tracking-tighter"> WhereToBeer - Web Application made on pure JavaScript</label>
       <p className="mb-0">
@@ -63,6 +75,17 @@ export default function Page() {
       </p>
       <a href="https://kaio-rama.github.io/visualsloosers/" target="blank" className="text-indigo-300">Visual Looser en GitHub pages.</a>
 
+      <iframe src="https://dbd-mastodon.vercel.app/home" className="web-example mt-8"></iframe>
+      <label className="font-semibold mb-8 tracking-tighter"> DBD Mastodon - Proyecto de interfaz para Mastodon usando Astro.</label> 
+      <p className="mb-0">
+        <i>DBD Mastodon es una aplicación web que te permite acceder a tu red social Mastodon e interactuar con ella.
+           Es un proyecto de interfaz de código abierto para la red social Mastodon, esta en una fase muy temprana de desarrollo.
+           Comenzó como un experimento para aprender a desarrollar una aplicación web que renderice solo HTML con Astro, y todavía está en desarrollo.
+           De todos modos, en el proceso descubrí 1: cómo usar la API de Mastodon y cómo interactuar con ella y 2: probablemente sea mejor usar React, NEXT.js o
+           algún otro framework con SSR (Server Side Rendering) para renderizar el HTML e interactuar con la API.
+           </i>
+      </p>
+      <a href="https://dbd-mastodon.vercel.app/home" target="blank" className="text-indigo-300">DBD Mastodon BETA en Vercel .</a>
       
       <iframe src="https://kaio-rama.github.io/whereToBeer/" className="web-example mt-8"></iframe>
       <label className="font-semibold mb-8 tracking-tighter"> WhereToBeer - Aplicación web hecha en JavaScript puro.</label>
