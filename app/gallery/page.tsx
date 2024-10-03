@@ -22,7 +22,7 @@ export default function Page() {
       </p>
       <a href="https://kaio-rama.github.io/visualsloosers/" target="blank" className="text-indigo-300">Visual Looser preview.</a>
 
-      <iframe src="https://dbd-mastodon-ece15jveo-kaio-ramas-projects.vercel.app/home" className="web-example mt-8"></iframe>
+      <iframe src="https://dbd-mastodon.vercel.app/home" className="web-example mt-8"></iframe>
       <label className="font-semibold mb-8 tracking-tighter"> DBD Mastodon - Project of interface for Mastodon social network using Astro.</label>
       <p className="mb-0">
         <i>DBD Mastodon is a web application that allows you to access your Mastodon social network and interact with it.
@@ -32,7 +32,7 @@ export default function Page() {
            some other framework with SSR (Server Side Rendering) to render the HTML and interact with the API.
            </i>
       </p>
-      <a href="https://dbd-mastodon-ece15jveo-kaio-ramas-projects.vercel.app/home" target="blank" className="text-indigo-300">DBD Mastodon preview on Vercel .</a>
+      <a href="https://dbd-mastodon.vercel.app/home" target="blank" className="text-indigo-300">DBD Mastodon preview on Vercel .</a>
 
 
       <iframe src="https://kaio-rama.github.io/whereToBeer/" className="web-example mt-8"></iframe>
@@ -75,7 +75,7 @@ export default function Page() {
       </p>
       <a href="https://kaio-rama.github.io/visualsloosers/" target="blank" className="text-indigo-300">Visual Looser en GitHub pages.</a>
 
-      <iframe src="https://dbd-mastodon-ece15jveo-kaio-ramas-projects.vercel.app/home" className="web-example mt-8"></iframe>
+      <iframe src="https://dbd-mastodon.vercel.app/home" className="web-example mt-8"></iframe>
       <label className="font-semibold mb-8 tracking-tighter"> DBD Mastodon - Proyecto de interfaz para Mastodon usando Astro.</label> 
       <p className="mb-0">
         <i>DBD Mastodon es una aplicación web que te permite acceder a tu red social Mastodon e interactuar con ella.
@@ -85,7 +85,7 @@ export default function Page() {
            algún otro framework con SSR (Server Side Rendering) para renderizar el HTML e interactuar con la API.
            </i>
       </p>
-      <a href="https://dbd-mastodon-ece15jveo-kaio-ramas-projects.vercel.app/home" target="blank" className="text-indigo-300">DBD Mastodon BETA en Vercel .</a>
+      <a href="https://dbd-mastodon.vercel.app/home" target="blank" className="text-indigo-300">DBD Mastodon BETA en Vercel .</a>
       
       <iframe src="https://kaio-rama.github.io/whereToBeer/" className="web-example mt-8"></iframe>
       <label className="font-semibold mb-8 tracking-tighter"> WhereToBeer - Aplicación web hecha en JavaScript puro.</label>
