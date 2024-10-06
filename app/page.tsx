@@ -45,6 +45,9 @@ export default function Page() {
       </div>
 
       <div className="my-8">
+        <h3 className="mb-4 text-xl font-semibold tracking-tighter">
+          Lasts Blog entrys:
+        </h3>
         <BlogPosts />
       </div>
     </section>
